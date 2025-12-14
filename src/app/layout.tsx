@@ -3,6 +3,9 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Productivity from "./UI/Productivity";
+import Comments from "./UI/Comments";
+import Robust from "./UI/Robust ";
+import Footer from "./components/Footer";
 
 
 
@@ -28,6 +31,9 @@ export default function RootLayout({
       >
         <Header />
         <Productivity />
+        <Comments />
+        <Robust />
+        <Footer />
         {children}
       </body>
     </html>

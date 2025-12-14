@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -37,16 +38,12 @@ const Header = () => {
             </svg>
           </a>
           <nav>
-            <ul className="flex">
+            <ul className="flex gap-4">
               <li>
-                <a className="p-3" href="/about">
-                  About
-                </a>
+                <Link href="./About">About</Link>
               </li>
               <li>
-                <a className="p-3" href="/features">
-                  Features
-                </a>
+                <Link href="./Features">Features</Link>
               </li>
             </ul>
           </nav>
