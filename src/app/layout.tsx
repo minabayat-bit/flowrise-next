@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
-import Productivity from "./UI/Productivity";
-import Comments from "./UI/Comments";
-import Robust from "./UI/Robust ";
+
+
 import Footer from "./components/Footer";
 
 
@@ -30,11 +29,9 @@ export default function RootLayout({
         className={`${Nunitosans.variable} ${Nunitosans.variable} antialiased`}
       >
         <Header />
-        <Productivity />
-        <Comments />
-        <Robust />
-        <Footer />
+       
         {children}
+        <Footer />
       </body>
     </html>
   );

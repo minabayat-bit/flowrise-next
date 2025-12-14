@@ -41,10 +41,10 @@ const Footer = () => {
 
       <ul className="flex gap-6 justify-center items-center">
         <li>
-          <Link href="./About">About</Link>
+          <Link href="/About">About</Link>
         </li>
         <li>
-          <Link href="./Features">Features</Link>
+          <Link href="/Features">Features</Link>
         </li>
       </ul>
     </div>

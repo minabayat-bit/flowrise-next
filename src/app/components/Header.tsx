@@ -40,10 +40,10 @@ const Header = () => {
           <nav>
             <ul className="flex gap-4">
               <li>
-                <Link href="./About">About</Link>
+                <Link href="/About">About</Link>
               </li>
               <li>
-                <Link href="./Features">Features</Link>
+                <Link href="/Features">Features</Link>
               </li>
             </ul>
           </nav>
